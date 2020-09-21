@@ -13,7 +13,6 @@ import CheckoutPage from './pages/checkout/checkout.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils'; // persist Google user login
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selector';
-
 class App extends React.Component {
   unsubscribeFromAuth = null;
 
